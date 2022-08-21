@@ -3,8 +3,12 @@ using namespace std;
 class object
 {
     protected:
-    int a=10;
+    int a=2;
+};
+class ob:public object
+{
     public:
+    a=45;
     void print()
     {
         cout<<a;
@@ -12,6 +16,6 @@ class object
 };
 int main()
 {
-    object ob;
+    ob ob;
     ob.print();
 }
